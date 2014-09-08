@@ -1,0 +1,47 @@
+<ion-side-menus>
+
+  <ion-pane ion-side-menu-content>
+    <ion-nav-bar class="nav-title-slide-ios7 bar-assertive">
+      <ion-nav-back-button class="button-clear"><i class="icon ion-ios7-arrow-back"></i> Back</ion-nav-back-button>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent" animation="slide-left-right"></ion-nav-view>
+  </ion-pane>
+
+  <ion-side-menu side="left">
+    <header class="bar bar-header bar-assertive">
+      <h1 class="title">Menu</h1>
+    </header>
+    <ion-content class="has-header">
+      <ion-list>
+        <ion-item nav-clear menu-close href="#/app/foods">
+         
+          <span class="zawgyi"> 
+<!--          ဟင္းလ်ာမ်ား-->
+           Foods
+           </span>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/monthlyorderplans">
+         <span class="zawgyi"> 
+<!--         ခ်ဳိင္႔ဆြဲမွာရန္ -->
+         Monthly Order
+         </span>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/catering">
+        <span class="zawgyi">
+<!--         ေအာ္ဒါမွာရန္ -->
+         Catering Order
+        </span>
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/booking">
+        <span class="zawgyi"> Reservation </span>
+        </ion-item>
+        <ion-item nav-clear menu-close ng-click="login()">
+         <span class="zawgyi"> Login </span>
+        </ion-item>
+        <ion-item nav-clear menu-close ng-click="signup()">
+          <span class="zawgyi"> Sign Up </span>
+        </ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

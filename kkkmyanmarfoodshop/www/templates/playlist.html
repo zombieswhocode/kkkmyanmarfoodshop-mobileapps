@@ -1,0 +1,23 @@
+<ion-view title="{{playlist.title}}">
+  <ion-content class="has-header">
+    <h1 class="zawgyi talign-center playlist-heading">{{playlist.title}}</h1>
+
+    <div class="list card">
+      <div class="item item-avatar">
+        <img src="img/logo-square-64.png">
+        <h2 class="zawgyi playlist-heading">{{playlist.title}}</h2>
+        <p class="zawgyi">{{playlist.price}}</p>
+      </div>
+
+      <div class="item item-image">
+        <img src="img/foods/{{playlist.img}}">
+      </div>
+
+      <a class="item item-icon-left assertive" href="#/app/catering/{{playlist.id}}" >
+        <i class="icon ion-ios7-cart"></i>
+        Order Now 
+      </a>
+
+    </div>
+  </ion-content>
+</ion-view>

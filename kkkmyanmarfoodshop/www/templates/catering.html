@@ -1,0 +1,63 @@
+<ion-view title="Catering">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <h1 class="zawgyi talign-center order-heading"> Catering </h1>
+   
+     <div class="list list-inset">
+
+    <div class="item zawgyi">
+        <div class="row">
+          <div class="col col-50 zawgyi" style="text-align:right;line-height:34px;">ဟင္းလ်ာ - </div>
+          <div class="col col-50 zawgyi" style="line-height:34px;white-space:normal;">
+              {{food.title}}
+          </div>
+        </div>
+    </div>
+    <div class="item">
+        <img src="img/foods/{{food.img}}" alt="" style="max-width:100%">
+    </div>
+    <div class="item zawgyi">
+        <div class="row">
+          <div class="col col-50" style="text-align:right;line-height:34px;">ပြဲအေရအတြက္ - </div>
+          <div class="col col-50">
+              <input type="number" min="15" value="15" id="food_count">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-50" style="text-align:right;line-height:34px;">ပိုု႔ေဆာင္ရမည္႔ရက္ - </div>
+          <div class="col col-50">
+              <input type="datetime"  id="delivery_date">
+          </div>
+        </div>
+    </div>
+</div>
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">First Name</span>
+        <input type="text" placeholder="NayLin">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Last Name</span>
+        <input type="text" placeholder="Aung">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Email</span>
+        <input type="text" placeholder="nay@naysumyat.org">
+      </label>
+       <label class="item item-input item-stacked-label">
+        <span class="input-label">Phone</span>
+        <input type="text" placeholder="0931615082">
+      </label>
+       <label class="item item-input item-stacked-label">
+        <span class="input-label">Address</span>
+        <input type="text" placeholder="no.1,famous street,yangon">
+      </label>
+    </div>
+    <div class="padding">
+        <button class="button button-block button-assertive">Order Now</button>
+    </div>
+ 
+  </ion-content>
+</ion-view>

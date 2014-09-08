@@ -1,0 +1,14 @@
+<ion-view title="Monthly Order Plans">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <ion-list class="list planlist">
+      <ion-item ng-repeat="planlist in planlists" class="item" href="#/app/monthlyorder/{{planlist.id}}">
+                  <h2 class="zawgyi planlists-heading" style="white-space:normal;">{{planlist.title}}</h2>
+                  <p class="zawgyi">{{planlist.price}}</p>
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

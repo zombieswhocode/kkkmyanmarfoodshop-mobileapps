@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+	@font-face {
+        font-family: "zawgyi";
+        src: url('../fonts/Zawgyi-One.eot');
+        src: url('../fonts/Zawgyi-One.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Zawgyi-One.svg#Zawgyi-One') format('svg'),
+        url('../fonts/Zawgyi-One.woff') format('woff'),
+        url('../fonts/Zawgyi-One.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+.zawgyi{
+font-family: zawgyi;
+}
+.talign-center{text-align: center;}
+.playlists-heading{
+ overflow: visible !important;
+}
+.playlist-heading{
+margin-top: 10px !important;
+overflow: visible !important;
+}
+.playlist-image{
+ display: block;
+ max-width: 100%;
+}
+.order-heading{
+margin-top: 10px !important;
+    overflow: visible !important;
+}
+.planlists-heading h2 {
+ white-space: normal !important;
+}
+.title{
+font-family: "zawgyi";
+}
+#food_count{
+border: 1px solid #eee;
+    vertical-align: middle;
+    padding-left: 10px;
+}

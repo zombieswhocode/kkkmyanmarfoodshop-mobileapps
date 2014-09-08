@@ -1,0 +1,54 @@
+<ion-view title="Monthly Order">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left"class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+    <h1 class="zawgyi talign-center order-heading"> Monthly Order </h1>
+    <div class="list list-inset">
+
+    <div class="item zawgyi">
+        <div class="row">
+          <div class="col col-20 zawgyi" style="text-align:right;line-height:34px;">Plan - </div>
+          <div class="col col-80 zawgyi" style="line-height:34px;white-space:normal;">
+                {{planlist.title}}
+          </div>
+        </div>
+         <div class="row">
+          <div class="col col-20 zawgyi" style="text-align:right;line-height:34px;">Price - </div>
+          <div class="col col-80 zawgyi" style="line-height:34px;">
+                {{planlist.price}}
+          </div>
+        </div>
+    </div>
+
+
+    </div>
+   
+    <div class="list">
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">First Name</span>
+        <input type="text" placeholder="NayLin">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Last Name</span>
+        <input type="text" placeholder="Aung">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Email</span>
+        <input type="text" placeholder="nay@naysumyat.org">
+      </label>
+       <label class="item item-input item-stacked-label">
+        <span class="input-label">Phone</span>
+        <input type="text" placeholder="0931615082">
+      </label>
+       <label class="item item-input item-stacked-label">
+        <span class="input-label">Address</span>
+        <input type="text" placeholder="no.1,famous street,yangon">
+      </label>
+    </div>
+    <div class="padding">
+        <button class="button button-block button-assertive">Order Now</button>
+      </div>
+ 
+  </ion-content>
+</ion-view>
